@@ -1,2 +1,2 @@
-# nice_actimize_etl_doc
+# nice_actimize_etl
 Documentation for NICE Actimize ETL
