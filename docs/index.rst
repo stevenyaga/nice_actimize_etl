@@ -7,7 +7,6 @@ Welcome to NICE Actimize ETL's documentation!
 =============================================
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
    :caption: Contents:
 

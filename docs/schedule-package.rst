@@ -1,6 +1,6 @@
-=================================================
-Scheduling the SSIS Package with SQL Server Agent
-=================================================
+=======================
+Schedule Package
+=======================
 
 Manually executing packages is one thing, but normally you will schedule packages so your ETL can run in a specific time windows (probably at night). The easiest option is SQL Server Agent. You can right-click on the Jobs node to create a new job:
 

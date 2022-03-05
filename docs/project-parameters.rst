@@ -1,5 +1,5 @@
 ==========================
-Setting Project Parameters
+Project Parameters
 ==========================
 
 Parameters are used to assign values to package properties. A parameter specifies the data that will be used by a package. You can scope parameters to the package level or project level with package parameters and project parameters, respectively. Parameters can be used in expressions or tasks. When the project is deployed to the catalog, you can assign a literal value for each parameter or use the default value that was assigned at design time. In place of a literal value, you can also reference an environment variable. Environment variable values are resolved at the time of package execution.
