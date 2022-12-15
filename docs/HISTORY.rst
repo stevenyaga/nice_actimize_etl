@@ -18,4 +18,4 @@ Version 1.0.0 (2022-02-28)
 Author
 ------
 
-Steve Nyaga (Software Group)
+Software Group
