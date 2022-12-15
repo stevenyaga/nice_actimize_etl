@@ -20,8 +20,9 @@
 # -- Project information -----------------------------------------------------
 
 project = 'NICE Actimize ETL'
-copyright = '2022, Steve Nyaga'
-author = 'Steve Nyaga'
+copyright = '2022, Software Group'
+# author = 'Steve Nyaga'
+author = 'Software Group'
 
 # The short X.Y version
 version = ''
