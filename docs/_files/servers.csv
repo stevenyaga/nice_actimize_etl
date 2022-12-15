@@ -1,0 +1,19 @@
+NAME,IP Address / Instance,Type,Description
+vm-ken-niceactimize-cddwlfbatchuat,10.168.138.53,UAT,WLF Batch server UAT
+vm-ken-niceactimize-cddwlfrealuat,10.168.138.52,PROD,WLF Batch server Prod
+vm-ken-niceactimize-controlmsc-uat,10.168.138.70,UAT,Control-M Client server UAT
+vm-ken-niceactimize-db-uat,"10.168.138.68,4863",PROD,NICE Actimize DB Prod
+vm-ken-niceactimize-rcmavareal-uat,10.168.138.54,UAT,RCM Server UAT
+vm-ken-niceactimize-samudmbatch-uat,10.168.138.60,UAT,SAM/UDM server UAT
+Control-M Prod,10.168.134.69,PROD,Control-M Client server PROD
+SAM_UDM_APP Prod,10.168.134.57,PROD,SAM/UDM server PROD
+WLF_APP Prod,10.168.134.52,PROD,WLF Batch server Prod
+ETL UAT,10.235.54.58,UAT,ETL App UAT
+ETL UAT DB Instance,00172KENETL001\AMLETL,UAT,ETL UAT DB Instance
+ETL PROD,10.235.54.59,PROD,ETL App Prod
+ETL PROD DB Instance,00172KENETLPRD\AMLETL,PROD,ETL PROD DB Instance
+Employee Repository,PSDC-D04SQL026V.za.sbicdirectory.com\DERP01,ALL,Employee Repository
+Oracle EDW,ykeexaccdr01-scan.ke.sbicdirectory.com,ALL,T24 source data
+P1C credit cards,PSQLETSPRSVAG01.za.sbicdirectory.com\RSVRRawBatch,ALL,P1C data repository
+Exchange Rate flat files,\00172KENETL001\Currencyfiles,ALL,Currency exchange rates
+Worldcheck files repository,\\PSDC-PD001ECMP.za.sbicdirectory.com\Worldcheck,ALL,World check files repository

@@ -1,6 +1,8 @@
-=======================
-Schedule Package
-=======================
+.. _schedule-package:
+
+=====================
+Schedule SSIS Package
+=====================
 
 Manually executing packages is one thing, but normally you will schedule packages so your ETL can run in a specific time windows (probably at night). The easiest option is SQL Server Agent. You can right-click on the Jobs node to create a new job:
 
@@ -39,5 +41,6 @@ Important Notes
 
 .. note::
 
-	* The only package that should be scheduled is **_DoEndToEndETL.dtsx**. This is because the package contains references to all other packages and will ensure they are called in the correct order. However, all the other packages must be deployed together with the **_DoEndToEndETL.dtsx** package otherwise they will not be found.
+	* SSIS package parameters can be modified after deployment but before execution. See :ref:`Package Parameters <package-parameters>`:	
 	* You can inspect the logs generated. Robust logging is built in with several reports. See `Reporting with the SQL Server Integration Services Catalog <https://www.mssqltips.com/sqlservertip/4812/reporting-with-the-sql-server-integration-services-catalog/>`_
+	

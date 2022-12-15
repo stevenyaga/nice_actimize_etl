@@ -1,6 +1,8 @@
-===============
-Execute Package
-===============
+.. _execute-package:
+
+====================
+Execute SSIS Package
+====================
 
 To execute the package, simply locate it in the catalog folder, right-click it and hit ***Execute***
 

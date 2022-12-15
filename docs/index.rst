@@ -12,10 +12,14 @@ Welcome to NICE Actimize ETL's documentation!
 
    README
    HISTORY
-   install
+   deployment-setup
+   deploy-ssis
    execute-package
    schedule-package
    project-parameters
+   server-catalog   
+   transaction-mapping-steps
+   troubleshoot-guide
 
 Indices and tables
 ==================

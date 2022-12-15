@@ -1,6 +1,6 @@
-=======================
-Deploying to production
-=======================
+===================
+Deploy SSIS Scripts
+===================
 
 It is recommended to install the SSIS packages into the SSIDB catalog. See `SSIS Tutorial <https://www.mssqltips.com/sqlservertutorial/9069/deploy-and-schedule-an-sql-server-integration-services-ssis-package-step-by-step/>`_ for a detailed guide on how to create a folder within SSIDB to enable you install the packages.
  
@@ -33,3 +33,8 @@ The project has now been deployed to the server and you can find it in the catal
 .. image:: _static/images/deploy_4.png
 	:width: 600
 	:alt: Deployment completed 
+
+
+.. note::
+
+	* SSIS package parameters can be modified after deployment but before execution. See :ref:`Package Parameters <package-parameters>`:
