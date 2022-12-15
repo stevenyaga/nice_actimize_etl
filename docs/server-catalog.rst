@@ -4,7 +4,6 @@ Server catalog
 
 The following table provides list of server ip addresses that are in use. 
 
-#.. tabularcolumns:: |p{4cm}|p{2cm}|p{1cm}|p{4cm}|
 .. tabularcolumns:: |p{0.3\textwidth}|p{0.2\textwidth}|p{0.1\textwidth}|p{0.3\textwidth}|
 
 .. csv-table:: Servers Catalog
