@@ -46,3 +46,27 @@ Kill all jobs on a specific host
 .. code-block:: bash
 
   ctmkilljob -HOSTID <HOST_ID> e.g  ctmkilljob -HOSTID nice-samudmbatch.ke.sbicdirectory.com
+  
+Hold specific job
+-----------------
+
+.. code-block:: bash
+
+  ctmpsm -UPDATEAJF <ORDER_ID> HOLD e.g  ctmpsm -UPDATEAJF 0003ao HOLD
+  
+
+Delete specific job
+-----------------
+
+.. code-block:: bash
+
+  ctmpsm -UPDATEAJF <ORDER_ID> DELETE e.g  ctmpsm -UPDATEAJF 0003ao DELETE
+  
+
+Free specific job
+-----------------
+
+.. code-block:: bash
+
+  ctmpsm -UPDATEAJF <ORDER_ID> FREE e.g  ctmpsm -UPDATEAJF 0003ao FREE
+
