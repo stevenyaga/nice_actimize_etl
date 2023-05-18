@@ -12,7 +12,12 @@ Version 1.0.0 (2022-02-28)
 --------------------------
 
 * Alpha release
-* All SSIS packages developed except batch automation
+* All ETL packages developed except batch automation
+
+Version 2.0.0 (2023-05-18)
+--------------------------
+
+* All ETL packages developed and deployed for SAM, WLF and CDD
 
 
 Author
