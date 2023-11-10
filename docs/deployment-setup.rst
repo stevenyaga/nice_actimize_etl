@@ -74,9 +74,9 @@ The deployment via Control-M is beyond the scope of this document but there will
 
    * Main cause of this is that for large file SSIS process use **C:\Users\Default** location to buffer data. So Proxy account needs write access on this folder location. Package works fine in JOB too after this.
 
-   .. image:: _static/images/c_default_user_permission.PNG
-      :width: 800
-      :alt: C:\Users\Default Permissions
+.. image:: _static/images/c_default_user_permission.PNG
+   :width: 800
+   :alt: C:\Users\Default Permissions
 
 2. Deploy batch scripts
 =======================
