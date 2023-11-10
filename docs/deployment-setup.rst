@@ -65,6 +65,18 @@ The deployment via Control-M is beyond the scope of this document but there will
          *  *ETL_00_Initiation_V2.dtsx*
          *  *UDM_00_Initiation_v2.dtsx*
 
+.. note::
+
+   * ETL generates Excel summaries with the exceptions. The exception file has many worksheets with each worksheet representing a dataset object. Some exceptions related to an entity may be big. 
+   * Some large worksheets, e.g those with 15000 records and above may not load in the final workbook. 
+
+   * This is because SSIS package works fine in BIDS for loading excel file with more than 15000 rows but failed when same package runs in SQL server Agent Job under proxy account.
+
+   * Main cause of this is that for large file SSIS process use **C:\Users\Default** location to buffer data. So Proxy account needs write access on this folder location. Package works fine in JOB too after this.
+
+   .. image:: _static/images/c_default_user_permission.PNG
+      :width: 800
+      :alt: C:\Users\Default Permissions
 
 2. Deploy batch scripts
 =======================
