@@ -11,7 +11,8 @@ This guide summarizes, at high level, the architecture of the ETL process and by
     * The ETL is a key component to ensure the NICE Actimize AML system generates the relevant alerts
     * This document will not describe the other components of the NICE Actimize AML system
     * This document will not describe the system architecture as that is provided by NICE Actimize
-    
+
+
 ***************
 Sources of Data
 ***************
