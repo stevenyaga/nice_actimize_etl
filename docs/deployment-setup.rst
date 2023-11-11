@@ -7,10 +7,16 @@ Production Setup and Deployment
 This guide summarizes, at high level, the architecture of the ETL process and by extension the components, resources and assets that work together to ensure the ETL process functions seamlessly. 
 
 .. note::
+
     * The ETL is a key component to ensure the NICE Actimize AML system generates the relevant alerts
     * This document will not describe the other components of the NICE Actimize AML system
     * This document will not describe the system architecture as that is provided by NICE Actimize
 
+.. note:: This is a note admonition.
+   The ETL is a key component to ensure the NICE Actimize AML system generates the relevant alerts
+
+   - This document will not describe the other components of the NICE Actimize AML system
+   - This document will not describe the system architecture as that is provided by NICE Actimize
 
 ***************
 Sources of Data
