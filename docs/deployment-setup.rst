@@ -7,7 +7,6 @@ Production Setup and Deployment
 This guide summarizes, at high level, the architecture of the ETL process and by extension the components, resources and assets that work together to ensure the ETL process functions seamlessly. 
 
 .. note::
-
     * The ETL is a key component to ensure the NICE Actimize AML system generates the relevant alerts
     * This document will not describe the other components of the NICE Actimize AML system
     * This document will not describe the system architecture as that is provided by NICE Actimize
@@ -68,7 +67,6 @@ The deployment via Control-M is beyond the scope of this document but there will
          *  *UDM_00_Initiation_v2.dtsx*
 
 .. note::
-
    #. ETL generates Excel summaries with the exceptions. The exception file has many worksheets with each worksheet representing a dataset object. Some exceptions related to an entity may be big. 
    #. Some large worksheets, e.g those with 15000 records and above may not load in the final workbook. 
    #. This is because SSIS package works fine in BIDS for loading excel file with more than 15000 rows but failed when same package runs in SQL server Agent Job under proxy account.
@@ -105,8 +103,7 @@ Refer to `Control-M website <https://www.bmc.com/it-solutions/control-m.html>`_ 
 Important Control-M script deployment steps
 -------------------------------------------
 
-.. note::
-   
+.. note::   
     * Create a **Run-as** from the Control-M Configuration Manager. The Run-as should have the credentials of the Service Account that will be used to run/execute the scripts
 
       * Logon-as-batch privilege
