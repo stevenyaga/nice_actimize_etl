@@ -57,6 +57,7 @@ The deployment via Control-M is beyond the scope of this document but there will
 
       This job should run **WorldCheckCurrencyExchangeRateInitiation.dtsx** and should be scheduled to run at 9am every day. This is about 2 hours before the main ETL scripts start running.
 
+
    #. **Main ETL job**
 
       Job to perform **ETL** process. However, this job should be disabled and should only be used in instances where the Control-M is not in use. This is because Control-M jobs already call the SSIS scripts to perform the ETL. Define 3 steps to execute the following scripts sequentially:
@@ -67,12 +68,11 @@ The deployment via Control-M is beyond the scope of this document but there will
 
 .. note::
 
-   * ETL generates Excel summaries with the exceptions. The exception file has many worksheets with each worksheet representing a dataset object. Some exceptions related to an entity may be big. 
-   * Some large worksheets, e.g those with 15000 records and above may not load in the final workbook. 
+   #. ETL generates Excel summaries with the exceptions. The exception file has many worksheets with each worksheet representing a dataset object. Some exceptions related to an entity may be big. 
+   #. Some large worksheets, e.g those with 15000 records and above may not load in the final workbook. 
+   #. This is because SSIS package works fine in BIDS for loading excel file with more than 15000 rows but failed when same package runs in SQL server Agent Job under proxy account.
+   #. The main cause of this is that for large file SSIS process use **C:\\Users\\Default** location to buffer data. So Proxy account needs write access on this folder location. Package works fine in JOB too after this.
 
-   * This is because SSIS package works fine in BIDS for loading excel file with more than 15000 rows but failed when same package runs in SQL server Agent Job under proxy account.
-
-   * Main cause of this is that for large file SSIS process use **C:\Users\Default** location to buffer data. So Proxy account needs write access on this folder location. Package works fine in JOB too after this.
 
 .. image:: _static/images/c_default_user_permission.PNG
    :width: 800
