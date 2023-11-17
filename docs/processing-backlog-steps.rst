@@ -11,7 +11,11 @@ There are 3 important dates that you need to be aware
 #. **Backlog_start_date**:- This is the start of the backlog period
 #. **Backlog_end_date**:- This is the end of the backlog period
 #. **Backlog_current_running_date**:- Any date between the backlog start and end dates for whose batch we are currently processing
- 
+
+Steps
+=====
+#. Ensure worldcheck daily delta and delete files are loaded (copied onto the respective folders) for each of the days included in the backlog. In most times, these files will be already loaded since this is done by a separate SQL Agent job. The ETL also attempts to load the respective files in case the SQL Agent job did not succeed. It is always good to confirm that these files exist
+
 * These values are set and specified within Control-M environment and are passed as parameters to the ETL scripts
 
 
