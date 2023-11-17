@@ -8,9 +8,9 @@ For correct and full coverage, it is recommended that for each skipped day, a se
 
 There are 3 important dates that you need to be aware
 
-#. **Backlog_start_date**:- This is the start of the backlog period
-#. **Backlog_end_date**:- This is the end of the backlog period
-#. **Backlog_current_running_date**:- Any date between the backlog start and end dates for whose batch we are currently processing
+#. **Backlog_start_date**:- This is the start of the backlog period. Format is YYYY-MM-DD
+#. **Backlog_end_date**:- This is the end of the backlog period. Format is YYYY-MM-DD
+#. **Backlog_current_running_date**:- Any date between the backlog start and end dates for whose batch we are currently processing. Format is YYYY-MM-DD
 
 Steps
 =====
