@@ -20,14 +20,35 @@ Steps
 
 * Log into Control-M and navigate to Planning tab
 
+.. image:: _static/images/loading_controlm_workspace.png
+   :width: 800
+   :alt: Loading Control-M workspace
+
 * Open workspaces by going to **Load Folders and Jobs** tab. Select **KEN_PRD** folder then click on **Open** button at the bottom
+
+.. image:: _static/images/loading_controlm_workspace_2.png
+   :width: 800
+   :alt: Loading Control-M folders
 
 * Specify backlog dates from within the Control-M environment. 
 
 #. Double click on **01_Specify_Backlog_Processing_Values** node
+
+.. image:: _static/images/backlog_variables_node.png
+   :width: 800
+   :alt: Backlog variables node
+
 #. Specify the values for **BACKLOG_START_DATE**, **BACKLOG_END_DATE** and **BACKLOG_CURRENTLY_RUNNING_DATE**. The date format is **YYYY-MM-DD**
 
+.. image:: _static/images/edit_backlog_variables.png
+   :width: 800
+   :alt: Loading Control-M workspace
+
 * Order the folder and start the execution making sure to modify the **BACKLOG_CURRENTLY_RUNNING_DATE** variable for the day you are processing backlog
+
+.. image:: _static/images/controlm_order_folder.png
+   :width: 800
+   :alt: Ordering Control-M folder
 
 Key points to note
 ==================
