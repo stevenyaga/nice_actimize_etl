@@ -20,6 +20,7 @@ Welcome to NICE Actimize ETL's documentation!
    server-catalog   
    transaction-mapping-steps
    troubleshoot-guide
+   processing-backlog-steps
    controm-m-guide
 
 Indices and tables
