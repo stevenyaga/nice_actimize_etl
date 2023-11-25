@@ -68,7 +68,7 @@ Occassional errors in backlog processing
 
 During processing of backlog, you might occassional errors in Control-m for jobs that are performing validation. These failures do not necessarily mean that we should stop processing, but rather each one should be handled on its own. These jobs are:
 
-.. image:: _static/images/validation_jobs.png
+.. image:: _static/images/validation_jobs.PNG
    :width: 800
    :alt: Validation jobs
 
