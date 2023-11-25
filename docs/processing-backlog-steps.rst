@@ -53,7 +53,11 @@ Steps
 Key points to note
 ==================
 
-#. While in backlog processing period, disable daily scheduling of jobs by specifying order method to **None (Manual Order)
-#. When you are done processing backlog, enable daily scheduling of jobs by specifying order method to **Automatic (Daily)
+#. While in backlog processing period, disable daily scheduling of jobs by specifying order method to **None (Manual Order)**
+#. When you are done processing backlog, enable daily scheduling of jobs by specifying order method to **Automatic (Daily)**
 #. Ensure the ETL process begins within such a time when synchronization into EDW has completed. This is to avoid loading incomplete data
 #. Ensure to process backlogs days sequentially a day after the other
+
+.. note::
+
+#. When you are done processing the backlog set the value of **IS_PROCESSING_BACKLOG** variable to 0, otherwise it will still behaving like it is in a backlog state
