@@ -84,9 +84,9 @@ During processing of backlog, you might occassional errors in Control-m for jobs
   '[UDM].[UDM_STG].[PARTY]') AND DestinationCount=0
  GROUP BY SOURCE
 
-Check the output of the query. Note the following:   
-* If the queryset includes **[StagingKE].[AML].[Account]** or **[StagingKE].[AML].[Party]**, rerun preceeding jobs within the ETL folder. It is likely incomplete data was loaded earlier
-* If the queryset includes **[StagingKE].[AML].[Balance]**, check if the batch date falls on a Sunday or a public holiday. If yes, you can set the Job to OK. Else, consult the ETL developer. However, even if the batch date falls on a holiday and we are not in backlog processing mode, please consult the ETL developer. There is likely to be a data problem
+Check the output of the query. Note the following:
+- If the queryset includes **[StagingKE].[AML].[Account]** or **[StagingKE].[AML].[Party]**, rerun preceeding jobs within the ETL folder. It is likely incomplete data was loaded earlier
+- If the queryset includes **[StagingKE].[AML].[Balance]**, check if the batch date falls on a Sunday or a public holiday. If yes, you can set the Job to OK. Else, consult the ETL developer. However, even if the batch date falls on a holiday and we are not in backlog processing mode, please consult the ETL developer. There is likely to be a data problem
 
 3. **02_Verify_Actimize_Jobs_Status**. This job in **03_INITIALIZE_JOBS** folder checks that we have properly set the flag signifying that are already running alerts against a specific batch. This ensures that we do not have multiple batch runs at the same time.
 4. **05_DATA_QUALITY_CHECKS**. Jobs in this folder checks for duplicate entity data in the context of CDD. Any failure here points to a serious issue. A failure here can only be resolved by the ETL developer
