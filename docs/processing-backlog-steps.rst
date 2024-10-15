@@ -16,7 +16,7 @@ There are 4 important variables that you need to be aware
 - **NB**. The ETL will derive balances using the transactions to date going backward into the backlog dates
 
 Step 1: Verify loaded Worldcheck files
-#####################################
+######################################
 
 Ensure worldcheck daily delta and delete files are loaded (copied onto the respective folders) for each of the days included in the backlog. In most times, these files will be already loaded since this is done by a separate SQL Agent job. The ETL also attempts to load the respective files in case the SQL Agent job did not succeed. It is always good to confirm that these files exist
 
