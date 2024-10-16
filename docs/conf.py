@@ -20,14 +20,14 @@
 # -- Project information -----------------------------------------------------
 
 project = 'NICE Actimize ETL'
-copyright = '2023, Software Group'
+copyright = '2024, Software Group'
 # author = 'Steve Nyaga'
 author = 'Software Group'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '2.0.0'
+release = '3.0.0'
 
 
 # -- General configuration ---------------------------------------------------
