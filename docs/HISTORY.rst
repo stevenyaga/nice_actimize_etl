@@ -22,7 +22,7 @@ Version 2.0.0 (2023-05-18)
 Version 3.0.0 (2024-08-31)
 --------------------------
 
-* Updates to reflect Control-M configuration changes
+* Updates to include CDD-Feedback loop
 
 
 Author
